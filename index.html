@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="portafolio" />
+	<meta name="author" content="nombre del autor" />
+	<meta name="keywords" content="palabra clave1, palabra clave2, palabraclave3" />
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>Sitio web</title>
+
+    <!--Para usar el jquery y el archivo js-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="menuresponsive.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="contenedor">
+    
+    <!-- HEADER -->
+    
+        <header class="cabecera">
+
+            <!--Boton para desplegar o no el menu-->
+            <div class="menu_bar">
+                <a href="#" class="bt-menu"><span class="icon-list2"></span>Menú</a>
+            </div>
+
+            <!--Menu desplegable-->
+            <div class="barra-de-menu">
+                
+                <a href="#" class="logo"> < Giulycode/ > </a>
+
+                <nav class="menu">
+                        
+                    <ul class="listas-menu">
+                        <li> <a href="#bajar-inicio">Inicio</a> </li>
+                        <li> <a href="#bajar-aqui">Acerca de</a>
+                        <li> <a href="#bajar-proyectos">Proyectos</a>    
+                                
+                                <ul class="submenu">
+                                    <li><a href="#">P. 1</a></li>
+                                    <li><a href="#">P. 2</a></li>
+                                    <li><a href="#">P. 3</a></li>
+                                </ul>
+                                
+                        </li>
+                        <li class="download"> <a href="images/Giuliano Francesco De Palma.pdf" target="_blank">Descargar CV</a> </li>
+                    </ul>
+                    
+                </nav>
+
+            </div>
+        </header>
+
+    <!-- BANNER INICIAL -->
+    <div id="bajar-inicio">
+        <span id="separa"></span>
+    </div>
+
+        <section class="banner">
+            <div class="banner-content">
+                <h1>Bienvenido</h1>
+                <!--desc animada-->
+                <div class="content">
+                    <div class="content__container">
+                        <p class="content__container__text">
+                            Hello
+                        </p>
+                        <!--distintas palabras que forma-->
+                        <ul class="content__container__list">
+                            <li class="content__container__list__item">world !</li>
+                            <li class="content__container__list__item">bob !</li>
+                            <li class="content__container__list__item">users !</li>
+                            <li class="content__container__list__item">everybody !</li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+                <a href="#bajar-aqui">Ver mas</a>
+                
+            </div>
+        </section>
+    
+    <!-- TARJETA PRESENTACION -->
+        <div id="bajar-aqui">
+                <span id="separa"></span>
+        </div>
+        
+        <section class="acercade">
+            <div class="fotoyredes">
+                <img src="images/profile/perfil.png" alt="" class="foto">
+                <div class="redes">
+                    <a href="https://www.instagram.com/giuly.hdr/" target="_blank"><img src="images/profile/instagram.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/giuliano-de-palma-0a3384201/" target="_blank"><img src="images/profile/linkedin.png" alt=""></a>
+                    <a href="mailto:giulianodepalma@outlook.com" target="_blank"><img src="images/profile/outlook.png" alt=""></a>
+                </div>
+            </div>    
+            <div class="textoacercade">
+                <div class="wrap">
+                    <div class="tarjeta-wrap">
+                        <div class="tarjeta">
+                            <div class="adelante card1">
+                                Hola:
+                            </div>
+                            <div class="atras">
+                                <p>Estudio lic. en ciencias de la computacion en la UBA. Esta es mi primer pagina web y cada dia amplío mas mis conocimientos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        
+        
+    <!-- SKILLS ASIDE -->
+    
+        <aside class="barralateralskills">
+            
+            <!--barra de tarjetas-->
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+
+                        <!--tarjetas-->
+                        <div class="slide slide_1">
+                        <div class="slide-content">
+                            <img src="images/imagen.ico" alt="">
+                            <h2>Slide 1</h2>
+                            <p>Content for Slide 1</p>
+                        </div>
+                        </div>
+
+                        <div class="slide slide_2">
+                        <div class="slide-content">
+                            <img src="images/imagen.ico" alt="">
+                            <h2>Slide 2</h2>
+                            <p>Content for Slide 2</p>
+                        </div>
+                        </div>
+
+                        <div class="slide slide_3">
+                        <div class="slide-content">
+                            <img src="images/imagen.ico" alt="">
+                            <h2>Slide 3</h2>
+                            <p>Content for Slide 3</p>
+                        </div>
+                        </div>
+
+                        <div class="slide slide_4">
+                        <div class="slide-content">
+                            <img src="images/imagen.ico" alt="">
+                            <h2>Slide 4</h2>
+                            <p>Content for Slide 4</p>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </aside>
+    
+    <!-- HABILIDADES -->
+        <section class="habilidades">
+            <h2>Skills</h2>
+            <div class="habilidad">
+                <div class="imghabilidad">
+                    <img src="images/skills/html-5.png" alt="">
+                </div>
+                <h3>Html</h3>
+            </div>
+
+            <div class="habilidad">
+                <div class="imghabilidad">
+                    <img src="images/skills/css-3.png" alt="">
+                </div>
+                <h3>CSS</h3>
+            </div>
+
+            <div class="habilidad">
+                <div class="imghabilidad">
+                    <img src="images/skills/javascript.png" alt="">
+                </div>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="habilidad">
+                <div class="imghabilidad">
+                    <img src="images/skills/bootstrap.png" alt="">
+                </div>
+                <h3>Bootstrap</h3>
+            </div>
+
+            <div class="habilidad">
+                <div class="imghabilidad">
+                    <img src="images/skills/html-5.png" alt="">
+                </div>
+                <h3>Html</h3>
+            </div>
+
+            <div class="habilidad">
+                <div class="imghabilidad">
+                    <img src="images/skills/css-3.png" alt="">
+                </div>
+                <h3>CSS</h3>
+            </div>
+
+            <div class="habilidad">
+                <div class="imghabilidad">
+                    <img src="images/skills/javascript.png" alt="">
+                </div>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="habilidad">
+                <div class="imghabilidad">
+                    <img src="images/skills/bootstrap.png" alt="">
+                </div>
+                <h3>Bootstrap</h3>
+            </div>
+
+        </section>
+    <!-- PORTAFOLIO -->
+    <div id="bajar-proyectos">
+        <span id="separa"></span>
+    </div>
+
+        <section class="secciones">            
+                    
+            <h1 class="tituloproyectos">PROYECTOS</h1>
+            
+            <div class="proyectos">
+                <!--Proyecto1-->
+                <section class="proy1">
+                    <hgroup>
+                        <h1> <ins>Primer proyecto</ins> </h1>
+                        <h2> descripcion del primer proyecto descripcion del primer proyecto descripcion del primer proyecto </h2>
+                    </hgroup>
+                            
+                    <footer>
+                        <p> ver mas+ </p>
+                    </footer>
+                </section>
+
+                <!--Proyecto2-->
+                <section class="proy1">
+                    <hgroup>
+                        <h1> <ins>Segundo proyecto</ins> </h1>
+                        <h2> descripcion del primer proyecto descripcion del primer proyecto descripcion del primer proyecto </h2>
+                    </hgroup>
+                            
+                    <footer>
+                        <p> ver mas+ </p>
+                    </footer>
+                </section>
+
+                <!--Proyecto2-->
+                <section class="proy1">
+                    <hgroup>
+                        <h1> <ins>Segundo proyecto</ins> </h1>
+                        <h2> descripcion del primer proyecto descripcion del primer proyecto descripcion del primer proyecto </h2>
+                    </hgroup>
+
+                    </p>
+                            
+                    <footer>
+                        <p> ver mas+ </p>
+                    </footer>
+                </section>
+
+                <!--Proyecto2-->
+                <section class="proy1">
+                    <hgroup>
+                        <h1> <ins>Segundo proyecto</ins> </h1>
+                        <h2> descripcion del primer proyecto descripcion del primer proyecto descripcion del primer proyecto </h2>
+                    </hgroup>
+                    
+                    </p>
+                            
+                    <footer>
+                        <p> ver mas+ </p>
+                    </footer>
+                </section>
+
+                <!--Proyecto2-->
+                <section class="proy1">
+                    <hgroup>
+                        <h1> <ins>Segundo proyecto</ins> </h1>
+                        <h2> descripcion del primer proyecto descripcion del primer proyecto descripcion del primer proyecto </h2>
+                    </hgroup>
+                    
+                    </p>
+                            
+                    <footer>
+                        <p> ver mas+ </p>
+                    </footer>
+                </section>
+
+                <!--Proyecto2-->
+                <section class="proy1">
+                    <hgroup>
+                        <h1> <ins>Segundo proyecto</ins> </h1>
+                        <h2> descripcion del primer proyecto descripcion del primer proyecto descripcion del primer proyecto </h2>
+                    </hgroup>
+                    
+                    </p>
+                            
+                    <footer>
+                        <p> ver mas+ </p>
+                    </footer>
+                </section>
+                
+            </div>
+
+        </section>
+    
+    <!-- FOOTER -->    
+    
+        <footer class="pie">
+            Derechos reservados 2018 - 2022.
+        </footer>
+        
+    </div>
+
+    <!--Creo los estilos y todo-->
+    
+    <link rel="stylesheet" href="estiloinicio.css">
+    
+</body>
+
+</html>
